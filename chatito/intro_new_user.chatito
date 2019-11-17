@@ -1,0 +1,49 @@
+import ./common.chatito
+
+%[intro_new_user]('training': '100', 'testing': '50')
+    *[60%] ~[hi?]，~[pre1?]~[pre2]~[pre3]，~[indicate?]@[username]
+    *[20%] ~[hi?]，~[indicate]@[username]
+    *[20%] ~[indicate]@[username]
+
+~[pre1]
+    给你
+
+~[pre2]
+    介绍
+    认识
+    了解
+
+~[pre3]
+    一个新朋友
+    一位新朋友
+    个新朋友
+    位新朋友
+    一个朋友
+    一位朋友
+    个朋友
+    位朋友
+    一下
+    下
+
+~[indicate]
+    这是
+    他是
+    她是
+    他叫
+    她叫
+    我是
+    我叫
+
+@[username]
+    小红
+    小花
+    大黄
+    小明
+    小丽
+    刘德华
+    爸爸
+    妈妈
+    爷爷
+    奶奶
+    姨妈
+    马叔叔

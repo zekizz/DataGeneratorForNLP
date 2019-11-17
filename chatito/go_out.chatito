@@ -1,0 +1,29 @@
+import ./common.chatito
+
+%[go_out]('training': '50', 'testing': '30')
+    *[60%] ~[will?]~[go]@[location]~[action]
+    *[40%] ~[will?]~[action]~[go]@[location]
+
+
+~[will]
+    要
+    将要
+    打算
+
+~[go]
+    去
+    到
+
+~[action]
+    上班
+    上课
+    出差
+    外出
+
+@[location]
+    北京
+    广州市
+    南沙区
+    湖北省武汉市
+    中山公园
+    金州小学
